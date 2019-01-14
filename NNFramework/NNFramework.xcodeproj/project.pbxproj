@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		BD7EC79021EC74550030CAAD /* NNFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = BD7EC78E21EC74550030CAAD /* NNFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BD7EC79721EC74B10030CAAD /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7EC79621EC74B10030CAAD /* Service.swift */; };
+		BD7EC81221EC9D850030CAAD /* IBDTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7EC81021EC9D850030CAAD /* IBDTextView.swift */; };
+		BD7EC81321EC9D850030CAAD /* IBDLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7EC81121EC9D850030CAAD /* IBDLabel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -16,6 +18,8 @@
 		BD7EC78E21EC74550030CAAD /* NNFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NNFramework.h; sourceTree = "<group>"; };
 		BD7EC78F21EC74550030CAAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BD7EC79621EC74B10030CAAD /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		BD7EC81021EC9D850030CAAD /* IBDTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IBDTextView.swift; sourceTree = "<group>"; };
+		BD7EC81121EC9D850030CAAD /* IBDLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IBDLabel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +55,8 @@
 				BD7EC78E21EC74550030CAAD /* NNFramework.h */,
 				BD7EC78F21EC74550030CAAD /* Info.plist */,
 				BD7EC79621EC74B10030CAAD /* Service.swift */,
+				BD7EC81121EC9D850030CAAD /* IBDLabel.swift */,
+				BD7EC81021EC9D850030CAAD /* IBDTextView.swift */,
 			);
 			path = NNFramework;
 			sourceTree = "<group>";
@@ -134,7 +140,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD7EC81321EC9D850030CAAD /* IBDLabel.swift in Sources */,
 				BD7EC79721EC74B10030CAAD /* Service.swift in Sources */,
+				BD7EC81221EC9D850030CAAD /* IBDTextView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
